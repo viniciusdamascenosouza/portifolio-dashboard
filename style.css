@@ -1,0 +1,30 @@
+:root {
+    --fonte-padrao: 'Hedvig Letters Sans', sans-serif;
+    --cor-fundo: #0f121f;
+    --cor-branca: #FFF;
+}
+
+body {
+    background: var(--cor-fundo);
+}
+
+h1 {
+    font-family: var(--fonte-padrao);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var var(--cor-branca);
+}
+
+.logo__img {
+    width: 70px;
+}
+
+.logo__texto {
+    color: var(--cor-branca);
+    font-size: 2.5em;
+}
+
